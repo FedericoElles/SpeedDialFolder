@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Speed Dial Folder</string>
+
+
+	<!-- existing item context menu  -->
+	<string name="menu.edit">編集</string>
+	<string name="menu.change_icon">アイコン変更</string>
+	<string name="menu.delete">削除</string>
+	<string name="menu.cut">切り取り</string>
+
+	<!-- new item context menu  -->
+	<string name="menu.title.create_shortcut">ショートカットを作成</string>
+	<string name="menu.application">アプリケーション</string>
+	<string name="menu.web_link">ウェブページへのリンク</string>
+	<string name="menu.other_shortcut">その他のショートカット (ベータ)</string>
+	<string name="menu.folder">フォルダ</string>
+
+	<string name="menu.paste">貼り付け</string>
+	
+	
+	<string name="menu.about">アプリについて</string>
+	<string name="menu.settings">設定</string>
+
+	<!-- grid items -->
+	<string name="grid.back">戻る</string>
+	<string name="grid.exit">閉じる</string>
+
+
+
+	<!-- background image change activity -->
+	<string name="button.back">戻る</string>
+	<string name="button.bg_image">背景画像を選ぶ</string>
+
+	<!--  -->
+	<string name="title.edit_web_link">リンク先を編集</string>
+	<string name="title.create_web_link">リンク先を追加</string>
+	<string name="title.edit_title">タイトル編集</string>
+	<string name="title.create_folder">フォルダ作成</string>
+
+
+	<!-- buttons -->
+	<string name="button.create">作成</string>
+	<string name="button.edit">編集</string>
+	<string name="button.cancel">キャンセル</string>
+	<string name="button.add">追加</string>
+	<string name="button.close">閉じる</string>
+
+	<!-- Edit box hints -->
+	<string name="hint.title">タイトル</string>
+
+	<!-- Errors -->
+	<string name="error.invalid_url">無効なアドレスです</string>
+	<string name="error.empty_title">タイトルが空です</string>
+	<string name="error.set_background">画像が大きすぎて、背景画像をセットできません。</string>
+
+
+	<!-- Settings -->
+	<string name="settings.title">設定</string>
+	<string name="settings.anim.title">アニメーション効果</string>
+	<string name="settings.anim.summary">アプリの動作にアニメーション効果をつけます。</string>
+	<string name="settings.haptic.title">触覚フィードバック</string>
+	<string name="settings.haptic.summary">ボタン操作時に振動効果をつけます。</string>
+	<string name="settings.acoustic.title">音響フィードバック</string>
+	<string name="settings.acoustic.summary">ボタン操作時に音響効果をつけます。</string>
+	<string name="settings.plus_icons.title">プラス アイコン</string>
+	<string name="settings.plus_icons.summary">空の場所に＋のアイコンを表示します。</string>
+	<string name="settings.section.bg">背景</string>
+	<string name="settings.bg.title">背景のカスタマイズ</string>
+	<string name="settings.bg.summary">背景の色や画像を変更できるようにします。</string>
+	<string name="settings.bgcolor.title">背景色</string>
+	<string name="settings.bgcolor.summary">背景色を選択します。</string>
+	<string name="settings.bgimage.title">背景画像</string>
+	<string name="settings.bgimage.summary">オリジナルの背景画像を使用できるようにします。</string>
+	<string name="settings.bgimageurl.title">背景画像を選ぶ</string>
+	<string name="settings.bgimageurl.summary">画像ギャラリーから背景画像を指定します。</string>
+
+	
+	<string name="text.homepage">Homepage &amp; Support</string>
+	<string name="text.about">\ \ Federico Elles © 2010 \ \</string>
+	
+	
+	<string name="widget.title1x2">Speed Dial Folder Launcher 1x2</string>
+	<string name="widget.title2x2">Speed Dial Folder Launcher 2x2</string>
+</resources>

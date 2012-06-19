@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#fff">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="40dip" android:padding="5dip"
+		android:background="@drawable/header" android:layout_marginBottom="10dip"
+		android:visibility="gone">
+		<LinearLayout android:id="@+id/breadcrumbs"
+			android:orientation="horizontal" android:layout_width="0dip"
+			android:layout_height="fill_parent" android:layout_weight="2">
+		</LinearLayout>
+		<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:layout_weight="0">
+			<ImageButton android:id="@+id/settings"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:paddingTop="5dip" android:paddingBottom="5dip"
+				android:paddingLeft="10dip" android:paddingRight="10dip"
+				android:background="@drawable/navbutton" android:src="@drawable/settings" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout style="@style/TitleBar">
+		<ImageButton style="@style/TitleBarAction"
+			android:contentDescription="Home" android:src="@drawable/ic_title_home"
+			android:onClick="onHomeClick" />
+
+		<ImageView style="@style/TitleBarSeparator" />
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:orientation="horizontal"
+			android:id="@+id/navigation_section_container">
+
+		</LinearLayout>
+	</LinearLayout>
+	<include layout="@layout/grid" />
+</LinearLayout>

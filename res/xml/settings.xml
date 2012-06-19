@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="commons3x3links">
+	<CheckBoxPreference android:key="animations"
+		android:summary="@string/settings.anim.summary" android:title="@string/settings.anim.title"
+		android:defaultValue="true" />
+	<CheckBoxPreference android:key="haptic_feedback"
+		android:summary="@string/settings.haptic.summary" android:title="@string/settings.haptic.title"
+		android:defaultValue="false" />
+	<CheckBoxPreference android:key="acoustic_feedback"
+		android:summary="@string/settings.acoustic.summary" android:title="@string/settings.acoustic.title"
+		android:defaultValue="false" />
+	<CheckBoxPreference android:key="show_plus_icon"
+		android:summary="@string/settings.plus_icons.summary" android:title="@string/settings.plus_icons.title"
+		android:defaultValue="true" />
+	<CheckBoxPreference android:key="close_after_launch_app"
+		android:summary="@string/settings.close_after_launch_app.summary"
+		android:title="@string/settings.close_after_launch_app.title"
+		android:defaultValue="true" />
+	<PreferenceCategory android:title="@string/settings.section.bg">
+		<CheckBoxPreference android:summary="@string/settings.bg.summary"
+			android:key="custom_background" android:title="@string/settings.bg.title"
+			android:defaultValue="false" />
+
+		<com.speeddialfolder.ui.ColorPreference
+			android:key="background_color" android:title="@string/settings.bgcolor.title"
+			android:summary="@string/settings.bgcolor.summary"
+			android:dialogTitle="" android:defaultValue="0" android:dependency="custom_background" />
+		<CheckBoxPreference android:summary="@string/settings.bgimage.summary"
+			android:key="enable_background_image" android:title="@string/settings.bgimage.title"
+			android:defaultValue="false" android:dependency="custom_background" />
+		<Preference android:key="background_image" android:title="@string/settings.bgimageurl.title"
+			android:summary="@string/settings.bgimageurl.summary"
+			android:dialogTitle="@string/settings.bgimageurl.summary"
+			android:dependency="enable_background_image">
+			<intent android:action="com.speeddialfolder.BackgroundImageActivity" />
+		</Preference>
+	</PreferenceCategory>
+</PreferenceScreen>

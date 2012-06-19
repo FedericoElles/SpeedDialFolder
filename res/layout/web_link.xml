@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:gravity="center">
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<EditText android:text="http://" android:id="@+id/edit_url"
+			android:hint="URL" android:layout_width="220dip"
+			android:layout_height="wrap_content" android:inputType="textUri"
+			android:imeOptions="actionNext" />
+		<EditText android:id="@+id/edit_title" android:hint="@string/hint.title"
+			android:layout_width="220dip" android:layout_height="wrap_content"
+			android:imeOptions="actionDone" android:inputType="textCapSentences" />
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:gravity="center_horizontal" android:padding="10dip">
+			<Button android:id="@+id/button_create" android:text="@string/button.create"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@drawable/bluebutton_layered" android:textColor="#fff"
+				android:maxWidth="150dip" android:minWidth="100dip" android:gravity="center_horizontal"
+				android:ellipsize="end" android:singleLine="true"
+				android:layout_marginRight="10dip" />
+			<Button android:id="@+id/button_cancel" android:text="@string/button.cancel"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:background="@drawable/darkredbutton_layered"
+				android:textColor="#fff" android:maxWidth="150dip" android:minWidth="100dip"
+				android:gravity="center_horizontal" android:ellipsize="end"
+				android:singleLine="true" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Speed Dial Folder</string>
+
+
+	<!-- existing item context menu  -->
+	<string name="menu.edit">Правка</string>
+	<string name="menu.change_icon">Сменить иконку</string>
+	<string name="menu.delete">Удалить</string>
+	<string name="menu.cut">Вырезать</string>
+
+	<!-- new item context menu  -->
+	<string name="menu.title.create_shortcut">Создать ярлык</string>
+	<string name="menu.application">Приложение</string>
+	<string name="menu.web_link">Веб ссылка</string>
+	<string name="menu.other_shortcut">Другое (Beta)</string>
+	<string name="menu.folder">Папка</string>
+
+	<string name="menu.paste">Вставить</string>
+	
+	
+	<string name="menu.about">О программе</string>
+	<string name="menu.settings">Настройки</string>
+
+	<!-- grid items -->
+	<string name="grid.back">Назад</string>
+	<string name="grid.exit">Выход</string>
+
+
+
+	<!-- background image change activity -->
+	<string name="button.back">Назад</string>
+	<string name="button.bg_image">Выбрать фоновое изображение</string>
+
+	<!--  -->
+	<string name="title.edit_web_link">Правка веб ссылки</string>
+	<string name="title.create_web_link">Добавить веб ссылку</string>
+	<string name="title.edit_title">Правка заголовка</string>
+	<string name="title.create_folder">Создать папку</string>
+
+
+	<!-- buttons -->
+	<string name="button.create">Создать</string>
+	<string name="button.edit">Правка</string>
+	<string name="button.cancel">Отмена</string>
+	<string name="button.add">Добавить</string>
+	<string name="button.close">Закрыть</string>
+
+	<!-- Edit box hints -->
+	<string name="hint.title">Заголовок</string>
+
+	<!-- Errors -->
+	<string name="error.invalid_url">Неверный URL</string>
+	<string name="error.empty_title">Пустой заголовок</string>
+	<string name="error.set_background">Невозможно установить новый фон.
+Очень большое изображение.</string>
+
+
+	<!-- Settings -->
+	<string name="settings.title">Настройки</string>
+	<string name="settings.anim.title">Анимации</string>
+	<string name="settings.anim.summary">Разрешить/Запретить анимацию в приложении</string>
+	<string name="settings.haptic.title">Тактильный отзыв</string>
+	<string name="settings.haptic.summary">Разрешить/Запретить обратную тактильную связь</string>
+	<string name="settings.acoustic.title">Звуковой отзыв</string>
+	<string name="settings.acoustic.summary">Разрешить/Запретить обратную звуковую связь</string>
+	<string name="settings.plus_icons.title">Иконка "Плюс"</string>
+	<string name="settings.plus_icons.summary">Показывать/Скрывать иконку "Плюс" на пустых полях</string>
+	<string name="settings.section.bg">Фоновое изображение</string>
+	<string name="settings.bg.title">Смена фона</string>
+	<string name="settings.bg.summary">Разрешить/Запретить смену фона</string>
+	<string name="settings.bgcolor.title">Фоновый цвет</string>
+	<string name="settings.bgcolor.summary">Выбрать фоновый цвет</string>
+	<string name="settings.bgimage.title">Фоновое изображение</string>
+	<string name="settings.bgimage.summary">Разрешить/Запретить фоновое изображение</string>
+	<string name="settings.bgimageurl.title">Выбрать фоновое изображение</string>
+	<string name="settings.bgimageurl.summary">Выбрать фоновое изображение из Галлерии</string>
+
+	
+	<string name="text.homepage">Homepage &amp; Support</string>
+	<string name="text.about">\ \ Federico Elles © 2010 \ \</string>
+	
+	
+	<string name="widget.title1x1">Speed Dial Folder Launcher 1x1</string>
+	<string name="widget.title1x2">Speed Dial Folder Launcher 1x2</string>
+	<string name="widget.title2x2">Speed Dial Folder Launcher 2x2</string>
+</resources>

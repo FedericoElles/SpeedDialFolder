@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="app_name">Speed Dial Folder</string>
+
+
+ <!-- existing item context menu  -->
+ <string name="menu.edit">Modifica</string>
+ <string name="menu.change_icon">Cambia icona</string>
+ <string name="menu.delete">Cancellare</string>
+ <string name="menu.cut">Taglia</string>
+
+ <!-- new item context menu  -->
+ <string name="menu.title.create_shortcut">Aggiungi nuova icona</string>
+ <string name="menu.application">Applicazioni</string>
+ <string name="menu.web_link">Preferiti</string>
+ <string name="menu.other_shortcut">Aggiungi un\'altra icona(Beta)</string>
+ <string name="menu.folder">Cartella</string>
+
+ <string name="menu.paste">Incolla</string>
+ 
+ 
+ <string name="menu.about">Informazioni</string>
+ <string name="menu.settings">Opzioni</string>
+
+ <!-- grid items -->
+ <string name="grid.back">Indietro</string>
+ <string name="grid.exit">Esci</string>
+
+
+
+ <!-- background image change activity -->
+ <string name="button.back">Indietro</string>
+ <string name="button.bg_image">Scegli sfondo</string>
+
+ <!--  -->
+ <string name="title.edit_web_link">Cambia preferiti</string>
+ <string name="title.create_web_link">Aggiunga preferiti</string>
+ <string name="title.edit_title">Cambia titolo</string>
+ <string name="title.create_folder">Aggiunga cartella</string>
+
+
+ <!-- buttons -->
+ <string name="button.create">Aggiunga</string>
+ <string name="button.edit">Modifica</string>
+ <string name="button.cancel">Annulla</string>
+ <string name="button.add">Inserisci</string>
+ <string name="button.close">Chiudi</string>
+
+ <!-- Edit box hints -->
+ <string name="hint.title">Titolo</string>
+
+ <!-- Errors -->
+ <string name="error.invalid_url">URL invalido</string>
+ <string name="error.empty_title">Senza titolo</string>
+ <string name="error.set_background">Lo sfondo scelto è troppo grande per usarlo.</string>
+
+
+ <!-- Settings -->
+ <string name="settings.title">Opzioni</string>
+ <string name="settings.anim.title">Animazioni</string>
+ <string name="settings.anim.summary">Attiva / Disattiva animazioni</string>
+ <string name="settings.haptic.title">Vibrazione</string>
+ <string name="settings.haptic.summary">Attiva / Disattiva vibrazione</string>
+ <string name="settings.acoustic.title">Suoni</string>
+ <string name="settings.acoustic.summary">Attiva / Disattiva suoni</string>
+ <string name="settings.plus_icons.title">Simbolo \'più\'</string>
+ <string name="settings.plus_icons.summary">Indica / Nascondi simbolo \'più\' quando casella è piena </string>
+ <string name="settings.section.bg">Sfondo</string>
+ <string name="settings.bg.title">Adatta sfondo</string>
+ <string name="settings.bg.summary">Modifica opzioni dello sfondo</string>
+ <string name="settings.bgcolor.title">Colore dello sfondo</string>
+ <string name="settings.bgcolor.summary">Scegli colore dello sfondo</string>
+ <string name="settings.bgimage.title">Sfondo</string>
+ <string name="settings.bgimage.summary">Attiva sfondo</string>
+ <string name="settings.bgimageurl.title">Scegli sfondo</string>
+ <string name="settings.bgimageurl.summary">Scegli sfondo da una galleria immaggini</string>
+
+ 
+ <string name="text.homepage">Homepage &amp; Support</string>
+ <string name="text.about">\ \ Federico Elles © 2010 \ \</string>
+ 
+ 
+ <string name="widget.title1x2">Speed Dial Folder Starter 1x2</string>
+ <string name="widget.title2x2">Speed Dial Folder Starter 2x2</string>
+</resources>

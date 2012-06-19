@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Speed Dial Folder</string>
+
+
+	<!-- existing item context menu  -->
+	<string name="menu.edit">Editieren</string>
+	<string name="menu.change_icon">Symbol ändern</string>
+	<string name="menu.delete">Löschen</string>
+	<string name="menu.cut">Ausschneiden</string>
+
+	<!-- new item context menu  -->
+	<string name="menu.title.create_shortcut">Verknüpfung erstellen</string>
+	<string name="menu.application">Anwendungen</string>
+	<string name="menu.web_link">Lesezeichen</string>
+	<string name="menu.other_shortcut">Andere Verknüpfung (Beta)</string>
+	<string name="menu.folder">Ordner</string>
+
+	<string name="menu.paste">Einfügen</string>
+	
+	
+	<string name="menu.about">Über</string>
+	<string name="menu.settings">Einstellungen</string>
+
+	<!-- grid items -->
+	<string name="grid.back">Zurück</string>
+	<string name="grid.exit">Exit</string>
+
+
+
+	<!-- background image change activity -->
+	<string name="button.back">Zurück</string>
+	<string name="button.bg_image">Hintergrundbild wählen</string>
+
+	<!--  -->
+	<string name="title.edit_web_link">Lesezeichen ändern</string>
+	<string name="title.create_web_link">Lesezeichen erstellen</string>
+	<string name="title.edit_title">Titel ändern</string>
+	<string name="title.create_folder">Ordner erstellen</string>
+
+
+	<!-- buttons -->
+	<string name="button.create">Erstellen</string>
+	<string name="button.edit">Editieren</string>
+	<string name="button.cancel">Abbrechen</string>
+	<string name="button.add">Hinzufügen</string>
+	<string name="button.close">Schließen</string>
+
+	<!-- Edit box hints -->
+	<string name="hint.title">Titel</string>
+
+	<!-- Errors -->
+	<string name="error.invalid_url">Ungültige URL</string>
+	<string name="error.empty_title">Leerer Titel</string>
+	<string name="error.set_background">Das gewählte Hintergrundbild ist zu groß um es zu verwenden.</string>
+	<string name="error_app_not_found">"%s" App nicht gefunden.</string>
+
+	<!-- Settings -->
+	<string name="settings.title">Einstellungen</string>
+	<string name="settings.anim.title">Animationen</string>
+	<string name="settings.anim.summary">Animationen ein-/ausschalten</string>
+	<string name="settings.haptic.title">Haptisches Feedback</string>
+	<string name="settings.haptic.summary">Haptisches Feedback ein-/ausschalten</string>
+	<string name="settings.acoustic.title">Akustisches Feedback</string>
+	<string name="settings.acoustic.summary">Akustisches Feedback ein-/ausschalten</string>
+	<string name="settings.plus_icons.title">Plus Symbol</string>
+	<string name="settings.plus_icons.summary">Plus Symbol bei leeren Feldern anzeigen</string>
+	<string name="settings.section.bg">Hintergrund</string>
+	<string name="settings.bg.title">Hintergrund anpassen</string>
+	<string name="settings.bg.summary">Hintergrunddarstellung ändern</string>
+	<string name="settings.bgcolor.title">Hintergrundfarbe</string>
+	<string name="settings.bgcolor.summary">Hintergrundfarbe wählen</string>
+	<string name="settings.bgimage.title">Hintergrundbild</string>
+	<string name="settings.bgimage.summary">Hintergrundbild aktivieren</string>
+	<string name="settings.bgimageurl.title">Hintergrundbild wählen</string>
+	<string name="settings.bgimageurl.summary">Hintergrundbild aus Gallerie wählen</string>
+	<string name="settings.close_after_launch_app.title">Automatisches Beenden</string>
+	<string name="settings.close_after_launch_app.summary">SDF beenden wenn eine andere App geöffnet wird.</string>
+	
+	<string name="text.homepage">Homepage &amp; Support</string>
+	<string name="text.about">\ \ Federico Elles © 2010 \ \</string>
+	
+	
+	<string name="widget.title1x2">Speed Dial Folder Starter 1x2</string>
+	<string name="widget.title2x2">Speed Dial Folder Starter 2x2</string>
+</resources>

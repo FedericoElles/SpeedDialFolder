@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Speed Dial Folder</string>
+
+
+	<!-- existing item context menu  -->
+	<string name="menu.edit">Bewerken</string>
+	<string name="menu.change_icon">Icoon wijzigen</string>
+	<string name="menu.delete">Verwijderen</string>
+	<string name="menu.cut">Knippen</string>
+
+	<!-- new item context menu  -->
+	<string name="menu.title.create_shortcut">Snelkoppeling maken</string>
+	<string name="menu.application">Applicatie</string>
+	<string name="menu.web_link">Web Link</string>
+	<string name="menu.other_shortcut">Andere snelkoppeling (Beta)</string>
+	<string name="menu.folder">Map</string>
+
+	<string name="menu.paste">Plakken</string>
+	
+	
+	<string name="menu.about">Info</string>
+	<string name="menu.settings">Instellingen</string>
+
+	<!-- grid items -->
+	<string name="grid.back">Terug</string>
+	<string name="grid.exit">Afsluiten</string>
+
+
+
+	<!-- background image change activity -->
+	<string name="button.back">Terug</string>
+	<string name="button.bg_image">Selecteer achtergrond</string>
+
+	<!--  -->
+	<string name="title.edit_web_link">Web Link bewerken</string>
+	<string name="title.create_web_link">Web Link toevoegen</string>
+	<string name="title.edit_title">Titel bewerken</string>
+	<string name="title.create_folder">Map toevoegen</string>
+
+
+	<!-- buttons -->
+	<string name="button.create">Creëren</string>
+	<string name="button.edit">Bewerken</string>
+	<string name="button.cancel">Annuleren</string>
+	<string name="button.add">Toevoegen</string>
+	<string name="button.close">Sluit</string>
+
+	<!-- Edit box hints -->
+	<string name="hint.title">Titel</string>
+
+	<!-- Errors -->
+	<string name="error.invalid_url">Ongeldige URL</string>
+	<string name="error.empty_title">Lege titel</string>
+	<string name="error.set_background">Kan nieuwe achtergrond niet opslaan.
+Te grote afbeelding om te hanteren.</string>
+	<string name="error_app_not_found">"%s" Applicatie niet gevonden.</string>
+
+	<!-- Settings -->
+	<string name="settings.title">Instellingen</string>
+	<string name="settings.anim.title">Animatie</string>
+	<string name="settings.anim.summary">Animatie inschakelen/uitschakelen</string>
+	<string name="settings.haptic.title">Haptische feedback</string>
+	<string name="settings.haptic.summary">Haptische feedback inschakelen/uitschakelen</string>
+	<string name="settings.acoustic.title">Akoestische feedback</string>
+	<string name="settings.acoustic.summary">Akoestische feedback inschakelen/uitschakelen</string>
+	<string name="settings.plus_icons.title">Plus icoon</string>
+	<string name="settings.plus_icons.summary">Toon/Verbergen plus icoon op de lege velden</string>
+	<string name="settings.section.bg">Achtergrond</string>
+	<string name="settings.bg.title">Eigen achtergrond</string>
+	<string name="settings.bg.summary">Eigen achtergrond inschakelen/uitschakelen</string>
+	<string name="settings.bgcolor.title">Achtergrond kleur</string>
+	<string name="settings.bgcolor.summary">Kiezen achtergrond kleur</string>
+	<string name="settings.bgimage.title">Achtergrond afbeelding</string>
+	<string name="settings.bgimage.summary">Achtergrond afbeelding inschakelen/uitschakelen</string>
+	<string name="settings.bgimageurl.title">Kiezen achtergrond afbeelding</string>
+	<string name="settings.bgimageurl.summary">Kiezen achtergrond afbeelding uit Gallery</string>
+	<string name="settings.close_after_launch_app.title">Automatisch sluiten</string>
+	<string name="settings.close_after_launch_app.summary">SDF sluiten wanneer een andere app is open.</string>
+	
+	<string name="text.homepage">Homepage &amp; Support</string>
+	<string name="text.about">\ \ Federico Elles © 2010 \ \</string>
+	
+	
+	<string name="widget.title1x2">Speed Dial Folder Launcher 1x2</string>
+	<string name="widget.title2x2">Speed Dial Folder Launcher 2x2</string>
+</resources>

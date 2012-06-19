@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">Speed Dial Folder</string>
+
+
+<!-- existing item context menu  -->
+	
+<string name="menu.edit">แก้ไข</string>
+<string name="menu.change_icon">เปลี่ยนไอค่อน</string>
+<string name="menu.delete">ลบ</string>
+<string name="menu.cut">ตัด</string>
+
+<!-- new item context menu  -->
+
+<string name="menu.title.create_shortcut">สร้างทางลัด</string>
+<string name="menu.application">แอปพลิเคชั่น</string>
+<string name="menu.web_link">เว็บลิงค์</string>
+<string name="menu.other_shortcut">ทางลัดอื่นๆ (เบต้า)</string>
+<string name="menu.folder">โฟลเดอร์</string>
+<string name="menu.paste">วาง</string>
+<string name="menu.about">เกี่ยวกับ</string>
+<string name="menu.settings">ตั้งค่า</string>
+	
+<!-- grid items -->
+
+<string name="grid.back">กลับ</string>
+<string name="grid.exit">ออก</string>
+
+<!-- background image change activity -->
+
+<string name="button.back">กลับ</string>
+<string name="button.bg_image">เลือกภาพพื้นหลัง</string>
+
+<!--  -->
+
+<string name="title.edit_web_link">แก้ไขเว็บลิงค์</string>
+<string name="title.create_web_link">เพิ่มเว็บลิงค์</string>
+<string name="title.edit_title">แก้ไขชื่อ</string>
+<string name="title.create_folder">สร้างโฟลเดอร์</string>
+	
+<!-- buttons -->
+	
+<string name="button.create">สร้าง</string>
+<string name="button.edit">แก้ไข</string>
+<string name="button.cancel">ยกเลิก</string>
+<string name="button.add">เพิ่ม</string>
+<string name="button.close">ปิด</string>
+
+	<!-- Edit box hints -->
+
+<string name="hint.title">ชื่อ</string>
+
+	<!-- Errors -->
+	
+
+<string name="error.invalid_url">URL ไม่สมบูรณ์</string>
+<string name="error.empty_title">ชื่อว่าง</string>
+<string name="error.set_background">ไม่สามารถตั้งค่าพื้นหลังได้.
+ขนาดรูปนั้นใหญ่เกินไป.</string>
+
+	<!-- Settings -->
+
+<string name="settings.title">ตั้งค่า</string>
+<string name="settings.anim.title">การเคลื่อนไหว</string>
+<string name="settings.anim.summary">เปิด/ปิด การเคลื่อนไหวแอปพลิเคชั่น</string>
+<string name="settings.haptic.title">เล่นเสียง</string>
+<string name="settings.haptic.summary">เปิด/ปิด เสียง</string>
+<string name="settings.acoustic.title">ระบบสั่น</string>
+<string name="settings.acoustic.summary">เปิด/ปิด ระบบสั่น</string>
+<string name="settings.plus_icons.title">ไอค่อนพิเศษ</string>
+<string name="settings.plus_icons.summary">แสดง/ซ่อน ไอค่อนพิเศษบนช่องว่าง</string>
+<string name="settings.section.bg">พื้นหลัง</string>
+<string name="settings.bg.title">ปรับแต่งพื้นหลัง</string>
+<string name="settings.bg.summary">เปิด/ปิด การปรับแต่งพื้นหลัง</string>
+<string name="settings.bgcolor.title">สีพื้นหลัง</string>
+<string name="settings.bgcolor.summary">เลือกสีพื้นหลัง</string>
+<string name="settings.bgimage.title">ภาพพื้นหลัง</string>
+<string name="settings.bgimage.summary">เปิด/ปิด ภาพพื้นหลัง</string>
+<string name="settings.bgimageurl.title">เลือกภาพพื้นหลัง</string>
+<string name="settings.bgimageurl.summary">เลือกภาพพื้นหลังจากแกลเลอรี่</string>
+<string name="text.homepage">Homepage &amp; Support</string>
+
+
+
+<string name="text.about">\ \ Federico Elles © 2010 \ \</string>
+<string name="widget.title1x2">Speed Dial Folder ขนาด 1x2</string>
+<string name="widget.title2x2">Speed Dial Folder ขนาด 2x2</string>
+
+</resources>
